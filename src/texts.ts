@@ -10,11 +10,13 @@ const texts: {
 } = {
 	"german":{
 		// "welcome": ["sie haben den rundsendedienst unter '", "' erreicht"], // not used
-		"introduction": "h fuer hilfe. kommandos mit (zv) bestaetigen",
+		"introduction": "kommando eingeben und zl", // dass man h für hilfe eingeben soll habe ich in das ungültige kommando verschoben
 
-		"modeChange": "neuer modus",
+		"modeChange": "neuer modus", // wann kommt das denn?
 		"help": "hilfe fuer modus",
-		"help explaination": "(komando)(parametertyp): (funktion)",
+		"help explaination": "komandobeispiel  funktion", 
+		// ich finde die Texte für die Kommandobeispiele nicht, also das bisherige + (n) nicht.
+		
 		"blacklisted": ["", " steht ", " auf der blacklist"],
 		"not": "nicht",
 		
@@ -22,15 +24,16 @@ const texts: {
 		"no new entries": "keine neuen entraege gefunden",
 
 		"not a language": ["'", "' ist keine gueltige sprache"],
-		"changed language": ["sprache wurde zu '", "' geaendert"],
-		"valid languages": "gueltige sprachen sind",
+		"changed language": ["sprache zu '", "' geaendert"],
+		"valid languages": "gueltige sind",
 
-		"invalid mode": "ungueltiger modus",
+		"invalid mode": "ungueltiger modus", // was ist das denn?
 		"no argument": "kein parameter angegeben",
 		"no number": "keine nummer angegeben",
+		// was kommt wenn die erwartete nummer nicht numerisch ist?
 
-		"none reachable": ["Es konnten keine ", " erreicht werden"],
-		"now connected": ["verbindung mit ", " ", " aufgebaut. verbindungsabbau mit '+++'"],
+		"none reachable": ["Es konnten keine ", " erreicht werden"], // wann kommt diese Meldung?
+		"now connected": ["verbindung ", " ", " aufgebaut. ende mit +++"],
 		"calling": ["rufe ", " ", " an:"],
 
 		"transmission over": ["uebertragung beendet. bestaetige ", " "],
@@ -43,19 +46,19 @@ const texts: {
 		"help_b_?": "blacklist status einer nummer auslesen",
 		"help_b_.": "blacklist status einer nummer aendern",
 
-		"help_m_q": "verbindung abbauen",
+		"help_m_q": "verbindung trennen",
 		"help_m_i": "generelle informationen",
-		"help_m_s": "teilnehmersuche",
-		"help_m_=": "ausgewaehlte nummern anrufen",
+		"help_m_s": "teilnehmersuche nach meier",
+		"help_m_=": "rundsendung beginnen",
 		"help_m_b": "blacklist bearbeiten",
-		"help_m_?": "ausgewaehlte nummern ausdrucken",
-		"help_m_-": "ausgewahl einer nummer entfernen",
-		"help_m_+": "nummer ausgewaehlen",
+		"help_m_?": "drucke gewaehlte empfaenger",
+		"help_m_-": "empfaenger 12345 entfernen", // wo ist denn der Text der vor dieser Erklärung kommt?
+		"help_m_+": "empfaenger 12345 hinzufuegen",
 		"help_m_l": "sprache aendern",
 
 		"no info": "keine info fuer sprache",
 
-		"invalid command": "ungueltiges kommando",
+		"invalid command": "ungueltiges kommando, h fuer hilfe",
 		"unknown error": "unbekannter fehler",
 	},
 	"english":{
